@@ -1,22 +1,58 @@
 # Human vs Machine Generated Code Classification
 
-This project focuses on classifying source code into two categories:
+This project focuses on classifying source code into two categories: -
+**Human-written code** - **Machine-generated code** (e.g., GPT, Qwen,
+DeepSeek, etc.) The objective is to identify stylistic, structural, and
+statistical differences between human and machine-written code and train
+machine learning models to classify them effectively.
 
-- **Human-written code**
-- **Machine-generated code** (e.g., Qwen, GPT, DeepSeek, etc.)
+##  Virtual Environment Setup
 
-The goal of this project is to analyze stylistic, structural, and statistical differences between human and machine-written code and train machine learning models to classify them accurately.
+Below are instructions for Linux, macOS, and Windows.
 
----
+###  Linux / macOS
 
-## 🚀 Create & Activate Virtual Environment (venv)
+**Create virtual environment**
 
-Below are the steps for **Linux**, **macOS**, and **Windows**.
-
----
-
-## 🐧 Linux / 🍎 macOS
-
-### **Create virtual environment**
-```bash
+``` bash
 python3 -m venv venv
+```
+
+**Activate**
+
+``` bash
+source venv/bin/activate
+```
+
+**Deactivate**
+
+``` bash
+deactivate
+```
+
+### Windows (PowerShell)
+
+**Create virtual environment**
+
+``` powershell
+python -m venv venv
+```
+
+**Activate**
+
+``` powershell
+venv\Scripts\Activate
+```
+
+**Deactivate**
+
+``` powershell
+deactivate
+```
+
+## 📦 Install Dependencies
+
+``` bash
+pip install -r requirements.txt
+```
+
