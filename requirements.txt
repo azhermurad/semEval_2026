@@ -6,3 +6,11 @@ matplotlib==3.10.7
 transformers==4.45
 huggingface_hub
 scikit-learn==1.7.2
+datasets
+ipywidgets
+pyarrow
+fastparquet
+
+
+
+# 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
