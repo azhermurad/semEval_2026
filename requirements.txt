@@ -12,7 +12,12 @@ pyarrow
 fastparquet
 optuna
 black
-torch
 xgboost
 lightgbm
+
+torch==2.4.1+cu118
+accelerate>=0.26.0
+--extra-index-url https://download.pytorch.org/whl/cu118
+
+
 # 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
