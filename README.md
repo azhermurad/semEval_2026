@@ -1,6 +1,6 @@
 # Cross-Domain Detection of Machine-Generated Code via Stylometric Features and Transformer Models
 
-This project focuses on classifying source code into two categories: -
+This Research focuses on classifying source code into two categories: -
 **Human-written code** - **Machine-generated code** (e.g., GPT, Qwen,
 DeepSeek, etc.) The objective is to identify stylistic, structural, and
 statistical differences between human and machine-written code and train
